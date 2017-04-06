@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue App</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- Favicons -->
+  <!-- @source: https://vuejs.org -->
+  <link rel="icon" href="https://vuejs.org/images/logo.png"> 
+
+  <style>
+  .form-control {
+    margin-bottom: 10px;
+  }
+  .btn-danger {
+    margin-top: 8px;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <a class="navbar-brand"><i class="glyphicon glyphicon-bullhorn text-primary"></i> Vue Events Bulletin Board</a>
+    </div>
+  </nav>
+
+  <!-- Main body of the application -->
+  <div class="container" id="events">
+
+    <!-- Add an event form -->
+    <div class="col-sm-7">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3>Add an Event</h3>
+        </div>
+        <div class="panel-body">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Show the events -->
+    <div class="col-sm-5">
+      <div class="list-group">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="node_modules/vue/dist/vue.min.js"></script>
+  <script src="node_modules/vue-resource/dist/vue-resource.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
