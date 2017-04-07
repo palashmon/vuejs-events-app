@@ -18,7 +18,7 @@ new Vue({
 
 	},
 
-	// Anything within the ready function will run when the application loads
+	// Anything within the created function will run when the application loads
 	created: function() {
 
 		// When the application loads, we want to call the method that initializes
