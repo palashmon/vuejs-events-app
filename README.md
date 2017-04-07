@@ -8,6 +8,6 @@ Following logics have been added so far:
 - [x] Initially we will do this using array of objects, just to get started.
 - [x] Add an event to the existing events array
 - [x] Delete an event from events array based on index
-- [ ] 
+- [ ] To do list
 
 Thanks!

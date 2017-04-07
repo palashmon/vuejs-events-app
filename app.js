@@ -68,8 +68,13 @@ new Vue({
 		},
 
 		// deleting events
-		deleteEvent: function(index) {			
+		deleteEvent: function(index) {	
+
+			// prompting the user to confirm that they actually want to delete the event		
 			if (confirm("Are you sure you want to delete this event?")) {
+
+				// If user click “OK”, the event is removed by splice finding the index passed in from the view 
+				// and removing the element from the DOM.
 				this.events.splice(index, 1);
 			}
 		}
