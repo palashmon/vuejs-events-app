@@ -65,6 +65,13 @@ new Vue({
 					date: ''
 				};
 			}
+		},
+
+		// deleting events
+		deleteEvent: function(index) {			
+			if (confirm("Are you sure you want to delete this event?")) {
+				this.events.splice(index, 1);
+			}
 		}
 
 	}
